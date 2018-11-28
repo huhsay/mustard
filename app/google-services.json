@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "522358754533",
+    "firebase_url": "https://mustardcoupon.firebaseio.com",
+    "project_id": "mustardcoupon",
+    "storage_bucket": "mustardcoupon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522358754533:android:13ead10d07f2ff6e",
+        "android_client_info": {
+          "package_name": "com.studiobethejustice.mustardcoupon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522358754533-659r8hgl186m588t7523deopdeghho7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studiobethejustice.mustardcoupon",
+            "certificate_hash": "c05b6ce062972a3d9f08d23bae374545df3bea12"
+          }
+        },
+        {
+          "client_id": "522358754533-flhn285s2km30r21uojmbiugph50e6h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsQkW7AiV2nFupJ3IJpeIoxtNjyOpckpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522358754533-flhn285s2km30r21uojmbiugph50e6h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.studiobethejustice.mustardcoupon.Member.Mycoupon">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:background="@drawable/round_searchbar"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/tb_StoreSearch"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="search"
+            android:textColorHint="#cccccc" />
+
+        <Button
+            android:id="@+id/bt_StoreSearch"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/round_button_gray"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/storelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true"
+        android:scrollbars="none">
+
+    </ListView>
+
+</LinearLayout>

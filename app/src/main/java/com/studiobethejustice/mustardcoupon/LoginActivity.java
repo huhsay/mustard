@@ -121,12 +121,9 @@ public class LoginActivity extends AppCompatActivity {
                     case "일반고객":
                         radiobtn = 1;
 
-
                         Intent intent = new Intent(LoginActivity.this, MemberActivity.class);
                         LoginActivity.this.startActivity(intent);
 
-
-                        /*
 
                         Response.Listener<String> responseListener = new Response.Listener<String>() {
                             @Override
@@ -168,7 +165,6 @@ public class LoginActivity extends AppCompatActivity {
                         RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                         queue.add(loginRequest);
 
-                        */
 
                         break;
 
